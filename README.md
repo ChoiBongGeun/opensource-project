@@ -1,5 +1,8 @@
 # opensource-project
 team No.4
+B489067 정민우
+B489076 최준형
+B489078 최봉근
 
 # Candidate project
 Added functionality to existing compression system zip.
