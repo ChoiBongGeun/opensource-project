@@ -327,6 +327,7 @@ else if(du){
         else{
             waitpid(pid,NULL,0);
             do_decompress();
+	    remove(argv[3]);
         } 
         
     }
