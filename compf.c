@@ -316,8 +316,19 @@ int main(int argc, char *argv[]){
             remove(argv[3]);
         } 
     }
-     else if(du){
-        FileDecoding(argv[2],argv[3]);  
+else if(du){
+          fin = fopen(argv[3], "r");
+         fout = fopen(argv[4], "w");
+          pid_t pid;
+        pid = fork();
+        if (pid ==0){
+         FileDecoding(argv[2],argv[3]); 
+        }
+        else{
+            waitpid(pid,NULL,0);
+            do_decompress();
+        } 
+        
     }
     
     fclose(fin);
