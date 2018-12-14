@@ -1,3 +1,7 @@
+# Our code is compf.c
+# Original code is comp.c
+
+
 # Opensource-project
 Team No.4
 B489067 정민우
