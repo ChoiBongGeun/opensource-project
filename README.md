@@ -1,5 +1,5 @@
 # Our code is compf.c
-# Original code is comp.c
+Original code is comp.c
 
 
 # Opensource-project
